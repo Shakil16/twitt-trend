@@ -5,7 +5,7 @@ pipeline {
         }
     }
 
-}
+
     stages {
         stage("build"){
             steps {
@@ -14,3 +14,6 @@ pipeline {
                  echo "----------- build complted ----------"
             }
         }
+    }
+} 
+
